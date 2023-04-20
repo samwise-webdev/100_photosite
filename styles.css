@@ -5,9 +5,12 @@ img {
 }
 
 nav {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
     text-transform: uppercase;
     border-bottom: 2px solid #f1f1f1;
     width: 30%;
     margin-left: calc(10%/6);
-    padding: 10px 0;
+    padding: .75em;
+
 }
