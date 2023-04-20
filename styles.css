@@ -3,3 +3,11 @@ img {
     /* margin: 1.6666%; this margin was figured by: 3 images at 30% = 90%. 10% left over divided by 6 (left and right of each image) equals 1.6666%). This isn't common anymore because there are easier ways to do it */
     margin: calc(10%/6) /* this way the browser will do the math for you and you can see where the number came from */
 }
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 10px 0;
+}
